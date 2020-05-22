@@ -1,0 +1,298 @@
+:root {
+--dark_grayish_blue:hsl(210,10%,33%);
+}
+
+body {
+	text-align: center;
+	font-family: 'Bai Jamjuree', sans-serif;
+	font-size: 18px;
+}
+
+@media (min-width:768px) {
+    header {
+        background: url('images/bg-header-desktop.png') no-repeat;
+    }
+}
+
+@media (max-width:767px) {
+    header {
+        background: url('images/bg-header-mobile.png') no-repeat;
+        width: 375px;
+    }
+}
+
+header div {
+	height: 250px;
+}
+
+header div img {
+	padding-top: 80px
+}
+
+div h1 {
+	font-weight: 600;
+}
+
+.start {
+	font-weight: 400;
+	line-height: 1.5;
+	width: 650px;
+	color: var(--dark_grayish_blue);
+}
+
+.container-small {
+	width: 700px;
+}
+
+.button1 {
+	float: right;
+	background-color: hsl(171,66%,44%);
+	width: 225px;
+	height: 52px;
+	border-radius: 60px;
+	color: white;
+	border-color: hsl(171,66%,44%);
+	shape-outside: 5px black;
+	margin-top: 34px;
+	margin-bottom: 90px;
+}
+
+.button2 {
+	float: left;
+	background-color: hsl(233,100%,69%);
+	width: 225px;
+	height: 52px;
+	border-radius: 60px;
+	color: white;
+	border-color: hsl(233,100%,69%);
+	shape-outside: 5px black;
+	margin-top: 34px;
+	margin-bottom: 90px;
+}
+
+.container h2 {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+
+.explain {
+	font-weight: 400;
+	width: 700px;
+	margin-left: 200px;
+	margin-bottom: 70px;
+	color: var(--dark_grayish_blue);
+}
+
+#hide {
+	padding-left: 0px;
+}
+
+#computer {
+	width: 650px;
+	float: left;
+	overflow: hidden;
+	padding-left: 0px;
+}
+
+#sectionb {
+	padding-left: 60px;
+	margin-bottom:200px;
+}
+
+.make {
+	margin-top: 40px;
+	font-weight: 600;
+	float: left;
+	width: 650px;
+	text-align: left;
+}
+
+.material {
+	font-weight: 400;
+	float: left;
+	width: 400px;
+	text-align: left;
+	margin-bottom: 0px;
+	color: var(--dark_grayish_blue);
+}
+
+#tablet {
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.row:nth-child(3) {
+	line-height: 0px;
+}
+
+.main {
+	font-weight: 600;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.small {
+	margin-top: 20px;
+	font-weight: 400;
+	width: 390px;
+	text-align: center;
+	font-size: 17px;
+	margin-left: 20px;
+	word-spacing: 4px;
+	color: var(--dark_grayish_blue);
+}
+
+#partner {
+	margin-top: 150px;
+	width: 1110px;
+}
+
+.media {
+	float: left;
+	padding: 150px 0px 100px 105px;
+}
+
+#download {
+	width: 1140px;
+	display: inline-block;
+}
+
+.dexplain {
+	font-weight: 400;
+	width: 700px;
+	margin-left: 200px;
+	margin-bottom: 0px;
+	color: var(--dark_grayish_blue);
+}
+
+footer {
+	background-color: hsl(220,18%,90%);
+	height: 170px;
+	margin-top: 70px;
+}
+
+#footimg {
+	padding-top: 8px;
+	width: 70px;
+	height: 70px;
+}
+
+a {
+	display: inline-block;
+	width: 200px;
+	color: black;
+	font-weight: 400;
+	text-align: left;
+	padding: 5px 0px 10px;
+}
+
+.social {
+	padding: 30px 10px 0px 15px;
+	float: left;
+}
+
+#gap {
+	padding-top: 43px;
+}
+
+@media (max-width: 767px) {
+		.container-small {
+    	width: 375px;
+    }
+
+    .container h1 {
+    	font-size: 2rem;
+    }
+
+    .start {
+    	max-width: 100%;
+    }
+
+
+    .button1 {
+    	margin-bottom: 0px;
+    }
+
+    button {
+    	float: none !important; 
+    }
+
+    .explain {
+    	margin-left: 0px;
+    	max-width: 100%;
+    }
+
+    #computer {
+    	float: none;
+    	width: 350px;
+    	margin-left: auto;
+    	margin-right: auto;
+    }
+
+    #hide {
+    	padding: 0px;
+    }
+
+    #sectionb {
+    	padding-left: 15px;
+    }
+
+    .make {
+    	float: none;
+    	max-width: 100%;
+    	text-align: center;
+    }
+
+    .material {
+    	float: none;
+    	max-width: 100%;
+    	text-align: center;
+    	padding: 0px 15px;
+    }
+
+    #tablet {
+    	width: 350px;
+    }
+
+    .small {
+    	margin-left: 0px;
+    	margin-bottom: 25px;
+    	padding: 0px 15px;
+    }
+
+    .media {
+    	float: none;
+    	display: block;
+    	padding: 30px 15px;
+    	margin-left: auto;
+    	margin-right: auto;
+    }
+
+    #download {
+    	margin-top: 80px;
+    	width: 100%;
+    }
+
+    .dexplain {
+    	width: 100%;
+    	margin-left: 0px;
+    	padding: 0px 2px;
+    }
+
+    footer {
+    	background-color: white;
+    }
+
+    a {
+    	text-align: center;
+    	margin: 5px 0px;
+    }
+
+    .social {
+    	float: none;
+    	width: 60px;
+    	margin: 0px 5px 60px 5px;
+    }
+}
+
